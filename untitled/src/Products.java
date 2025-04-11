@@ -22,8 +22,8 @@ public class Products {
     public double getTotalInventoryValue() {
         return price*quantity;
     }
-    public double getTotalProducts() {
-        return totalProducts;
+    public double getquantity() {
+        return quantity;
 
     }
     public static double getAveragePrice(){
@@ -39,8 +39,6 @@ public class Products {
     public String getName(){
         return name;
     }
-    public double getPrice(){
-        return price;
-    }
+
 }
 

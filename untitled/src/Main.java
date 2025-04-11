@@ -30,11 +30,11 @@ for(Products p : products){
     }
     Products maxproducts = products[0];
     for(int i = 1; i < products.length; i++){
-        if(products[i].getPrice() > maxproducts.getPrice()){
+        if(products[i].getquantity() > maxproducts.getquantity()){
             maxproducts = products[i];
 
         }
-        System.out.println("Product has maximum quantity is: " + maxproducts.getPrice());
+        System.out.println("Product has maximum quantity is: " + maxproducts.getName());
         System.out.println("\n TOtal price is " + Products.totalInventoryValue);
         System.out.println("Average is:"+ Products.getAveragePrice());
         Products.setStoreName("Kho miền Nam");
